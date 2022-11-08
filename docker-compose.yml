@@ -2,7 +2,7 @@ version: '3.8'
 
 networks:
   # Specify the network for bridging
-  10kswap-network:
+  swap-network:
     driver: bridge
 
 services:
@@ -11,4 +11,4 @@ services:
     ports:
       - '5050:5050'
     networks:
-      - 10kswap-network
+      - swap-network

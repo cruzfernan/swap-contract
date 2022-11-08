@@ -1,14 +1,14 @@
-# 10Kswap Contracts for Cairo
+# swap Contracts for Cairo
 
-Introducing 10KSwap: An AMM protocol that advances with Ethereum<br/>
+Introducing Swap: An AMM protocol that advances with Ethereum<br/>
 
-10KSwap(10kswap.com), being built on StarkNet, is an AMM protocol that advances with Ethereum. 10K aims to revolutionize the performance of the AMM protocol by leveraging the rollup feature, bringing lower fees, less friction, and ultimately better liquidity to the L2 world and advance DeFi adoption.
+Swap(swap.com), being built on StarkNet, is an AMM protocol that advances with Ethereum.  aims to revolutionize the performance of the AMM protocol by leveraging the rollup feature, bringing lower fees, less friction, and ultimately better liquidity to the L2 world and advance DeFi adoption.
 
-10KSwap is the first open source AMM deployed on StarkNet Mainnet. We trust Ethereum and StarkNet, which represents the most advanced rollup trend. With its unique Cairo-VM giving developers a new development option, higher TPS and a computational cost that can be ignored. We believe AMM will be the most direct beneficiary of these two features.
+Swap is the first open source AMM deployed on StarkNet Mainnet. We trust Ethereum and StarkNet, which represents the most advanced rollup trend. With its unique Cairo-VM giving developers a new development option, higher TPS and a computational cost that can be ignored. We believe AMM will be the most direct beneficiary of these two features.
 
-With Cairo-VM, the gas cost required to perform calculation is much lower than for state updates, and on top of this we will increase the appropriate amount of calculation to reduce the number of state updates, continue to improve contract performance, and further reduce gas costs. Ensuring that 10K brings users a lightning-fast trading experience while enjoying the security of broad consensus - that's what every DeFi user wants to see, and we look forward to exploring this magical starfield with the pioneers on StarkNet.
+With Cairo-VM, the gas cost required to perform calculation is much lower than for state updates, and on top of this we will increase the appropriate amount of calculation to reduce the number of state updates, continue to improve contract performance, and further reduce gas costs. Ensuring that  brings users a lightning-fast trading experience while enjoying the security of broad consensus - that's what every DeFi user wants to see, and we look forward to exploring this magical starfield with the pioneers on StarkNet.
 
-10KSwap has adopted an immutable scheme where the protocol does not serve centralized interests. When it is fully delivered by the creator, the power is left to the community. It is a reflection of the spirit of decentralization, and our desire to work with users to make the impossible triangle possible.
+Swap has adopted an immutable scheme where the protocol does not serve centralized interests. When it is fully delivered by the creator, the power is left to the community. It is a reflection of the spirit of decentralization, and our desire to work with users to make the impossible triangle possible.
 
 In subsequent developments, we will continue to explore the potential of zk-tech to develop an AMM that is more LP friendly and allows for finer control of liquidity distribution.
 
@@ -18,9 +18,9 @@ The key technology is how to use Cairo to develop the "Rich Convex Function", an
 2). A more generic and accessible development scaffolding.<br />
 3). SDK and DeFi contract libraries to facilitate dapp development.<br />
 
-## 10Kswap was online. To preview
+## swap was online. To preview
 
-[`https://10kswap.com`](https://10kswap.com)
+[`https://swap.com`](https://swap.com)
 
 ![preview](./docs/images/preview.png)
 
@@ -29,8 +29,8 @@ The key technology is how to use Cairo to develop the "Rich Convex Function", an
 #### Clone this repo
 
 ```
-git clone git@github.com:0x60018/10k_swap-contracts.git
-cd 10k_swap-contracts
+git clone git@github.com:0x60018/_swap-contracts.git
+cd _swap-contracts
 ```
 
 #### Install dependencies

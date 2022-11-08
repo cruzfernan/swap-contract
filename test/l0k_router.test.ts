@@ -107,17 +107,17 @@ describe("Amm router", function () {
     try {
       await l0kRouterContract.call('quote', { amountA: bnToUint256(0), reserveA: 100, reserveB: 200 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IA/i.test(error.message)).to.true
+      expect(/SwapLibrary: IA/i.test(error.message)).to.true
     }
     try {
       await l0kRouterContract.call('quote', { amountA: bnToUint256(1), reserveA: 0, reserveB: 200 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IL/i.test(error.message)).to.true
+      expect(/SwapLibrary: IL/i.test(error.message)).to.true
     }
     try {
       await l0kRouterContract.call('quote', { amountA: bnToUint256(1), reserveA: 100, reserveB: 0 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IL/i.test(error.message)).to.true
+      expect(/SwapLibrary: IL/i.test(error.message)).to.true
     }
   })
 
@@ -128,19 +128,19 @@ describe("Amm router", function () {
     try {
       await l0kRouterContract.call('getAmountOut', { amountIn: bnToUint256(2), reserveIn: 100, reserveOut: 100 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IIA/i.test(error.message)).to.true
+      expect(/SwapLibrary: IIA/i.test(error.message)).to.true
     }
 
     try {
       await l0kRouterContract.call('getAmountOut', { amountIn: bnToUint256(2), reserveIn: 0, reserveOut: 100 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IL/i.test(error.message)).to.true
+      expect(/SwapLibrary: IL/i.test(error.message)).to.true
     }
 
     try {
       await l0kRouterContract.call('getAmountOut', { amountIn: bnToUint256(2), reserveIn: 100, reserveOut: 0 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IL/i.test(error.message)).to.true
+      expect(/SwapLibrary: IL/i.test(error.message)).to.true
     }
   })
 
@@ -151,19 +151,19 @@ describe("Amm router", function () {
     try {
       await l0kRouterContract.call('getAmountIn', { amountOut: bnToUint256(0), reserveIn: 100, reserveOut: 100 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IOA/i.test(error.message)).to.true
+      expect(/SwapLibrary: IOA/i.test(error.message)).to.true
     }
 
     try {
       await l0kRouterContract.call('getAmountIn', { amountOut: bnToUint256(1), reserveIn: 0, reserveOut: 100 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IL/i.test(error.message)).to.true
+      expect(/SwapLibrary: IL/i.test(error.message)).to.true
     }
 
     try {
       await l0kRouterContract.call('getAmountIn', { amountOut: bnToUint256(1), reserveIn: 100, reserveOut: 0 })
     } catch (error: any) {
-      expect(/10kSwapLibrary: IL/i.test(error.message)).to.true
+      expect(/SwapLibrary: IL/i.test(error.message)).to.true
     }
   })
 
